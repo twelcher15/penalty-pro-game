@@ -1,0 +1,45 @@
+
+body {
+    background: linear-gradient(#001f3f, #ff4da6);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#game-container {
+    position: relative;
+}
+canvas {
+    border: 2px solid white;
+    background-color: #e0e0e0;
+}
+#ui {
+    margin-top: 10px;
+}
+#scoreboard {
+    font-size: 24px;
+}
+#powerBarContainer {
+    width: 300px;
+    height: 20px;
+    background-color: #ccc;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#powerBar {
+    height: 100%;
+    width: 0%;
+    background-color: #ff4da6;
+    transition: width 0.1s;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #001f3f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
